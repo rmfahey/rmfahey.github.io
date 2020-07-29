@@ -1,0 +1,84 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bob Fahey Site</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #F0FFFF; <!-- Aqua -->
+    color: #ffffff;
+    padding: 4px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#87CEFA;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1><img src="images/imageText.jpg" alt="Why?" style="width:15%">&emsp;&emsp; The Faheys</h1>
+<p>O'Fathaigh translates to Fahey in Irish Galic</p>
+</div>
+
+<div class="row">
+
+<div class="col-2 menu">
+<ul>
+<li><a href="#ffamily">Family</a></li>
+<li><a href="#ffriends">Friends</a></li>
+<li><a href="#fhobbies">Hobbies</a></li>
+<li><a href="#finters">Interests</a></li>
+</ul>
+</div>
+
+<div class="col-9">
+<h1>Welcome</h1>
+<p>I am <b><i>finally</i></b> getting around to doing something with this site!</p>
+<p>My Grandchildren are starting to encounter HTML related topics in school and this is a great place to host their efforts.</p>
+<p>They can learn the HTML, CSS, JS, etc and have a place to see the results. At the same time they can learn to work with GitHub.<br>
+The containers are <em>EMPTY</em> for the most part.  That's right, merely formatted place holders.
+</div>
+
+</div>
+</body>
+</html>
