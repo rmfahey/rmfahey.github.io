@@ -79,7 +79,7 @@ header .header-spec{
 .index-banner{
    width: 100%;
    height: calc(100vh - 100px); /*view height minus header*/
-   background-image: url('WDrep/PNG/SnipCapture.PNG');
+   background-image: url('WDresp/PNG/SnipCapture.PNG');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
